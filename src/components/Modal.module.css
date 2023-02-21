@@ -1,0 +1,79 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  width: 400px;
+  height: 300px;
+  background: white;
+  padding: 10px;
+}
+
+.header {
+  font-size: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.body {
+  height: 200px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 15px 0 0 0;
+}
+
+label {
+  font-size: 12px;
+}
+
+input {
+  padding: 1px 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.ok {
+  background: #111827;
+  color: white;
+  padding: 5px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 70px;
+}
+
+.cancel {
+  background: white;
+  color: #111827;
+  border: 1px solid #111827;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 70px;
+}
+
+.overflowHidden {
+  overflow: hidden;
+}

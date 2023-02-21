@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  width: 150px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+li:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+li:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+li:hover {
+  background: grey;
+}

@@ -1,0 +1,4 @@
+export const MODAL = {
+  ADD_TRADE: 'ADD_TRADE',
+  AMEND_TRADE: 'AMED_TRADE'
+}
