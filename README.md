@@ -1,6 +1,6 @@
 # Sample-Trades
 Sample Trades Table
-Click (here)[https://sample-trades.netlify.app/] to navigate to the site.
+Click [here](https://sample-trades.netlify.app/) to navigate to the site.
 
 To run the project:
 1. npm install
